@@ -14,7 +14,7 @@ CREATE TABLE icd9 (
 
 CREATE TABLE miasta_polskie (
     id_miasto MEDIUMINT(8) UNSIGNED NOT NULL AUTO_INCREMENT,
-    miasto VARCHAR(100) DEFAULT NULL,
+    miasto VARCHAR(100),
     PRIMARY KEY (id_miasto)
 );
 
