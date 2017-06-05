@@ -45,6 +45,13 @@ FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\r\n'
 IGNORE 2 ROWS;
 
+LOAD DATA LOCAL INFILE 'C:/Program Files/MySQL/MySQL Workbench 6.3 CE/data/csv/specjalizacje.csv'
+INTO TABLE specjalizacje
+FIELDS TERMINATED BY ';'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS
+(nazwa);
+
 LOAD DATA LOCAL INFILE 'C:/Program Files/MySQL/MySQL Workbench 6.3 CE/data/csv/lekarze_specjalizacje_link.csv'
 INTO TABLE lekarze_specjalizacje_link
 FIELDS TERMINATED BY ';'

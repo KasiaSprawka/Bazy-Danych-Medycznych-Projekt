@@ -1,3 +1,5 @@
+#CREATE DATABASE protetyka_dentystyczna;
+
 CREATE TABLE icd10 (
     kod VARCHAR(7) NOT NULL,
     nazwa VARCHAR(300) NOT NULL,
