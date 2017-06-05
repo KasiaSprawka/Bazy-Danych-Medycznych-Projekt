@@ -1,0 +1,483 @@
+﻿KOD;nazwa
+K00;Zaburzenia rozwoju i wyrzynania się zębów
+K00.0;Brak zębów
+K00.1;Zęby nadliczbowe
+K00.2;Nieprawidłowości wielkości i kształtu zębów
+K00.3;Zęby ze szkliwem plamkowym
+K00.4;Zaburzenia rozwoju zęba
+K00.5;Dziedziczne zaburzenia w strukturze zęba niesklasyfikowane gdzie indziej
+K00.6;Zaburzenia w wyrzynaniu się zębów
+K00.7;Zespół ząbkowania
+K00.8;Inne zaburzenia w rozwoju zębów
+K00.9;Zaburzenia rozwoju zęba, nie określone
+K01;Wtopione i zaklinowane zęby
+K01.0;Wtopione zęby
+K01.1;Zaklinowane zęby
+K02;Próchnica zębów
+K02.0;Próchnica ograniczona do szkliwa
+K02.1;Próchnica zębiny
+K02.2;Próchnica cementu
+K02.3;Zatrzymana próchnica zębów
+K02.4;Odontoklazja
+K02.8;Inne próchnice zębów
+K02.9;Próchnica zębów, nie określona
+K03;Inne choroby tkanek twardych zębów
+K03.0;Starcie zębów pochodzenia pokarmowego
+K03.1;Starcie zębów pochodzenia mechanicznego
+K03.2;Nadżerka zębów
+K03.3;Patologiczna resorpcja
+K03.4;Przerost cementu korzeniowego [hypercementosis]
+K03.5;Zrośnięcie zęba z kością [ankiloza zębów]
+K03.6;Złogi nazębne
+K03.7;Zmiany zabarwienia tkanek twardych po wyrżnięciu się zęba
+K03.8;Inne określone choroby tkanek twardych zębów
+K03.9;Choroba tkanek twardych zębów, nie określona
+K04;Choroby miazgi i tkanek okołowierzchołkowych
+K04.0;Zapalenie miazgi [pulpitis]
+K04.1;Martwica miazgi
+K04.2;Zwyrodnienie miazgi
+K04.3;Tworzenie się nieprawidłowej tkanki twardej w miazdze
+K04.4;Ostre przywierzchołkowe zapalenie ozębnej pochodzenia miazgowego
+K04.5;Przewlekłe przywierzchołkowe zapalenie ozębnej
+K04.6;Ropień okołowierzchołkowy z zajęciem zatoki szczękowej
+K04.7;Ropień okołowierzchołkowy bez zajęcia zatoki szczękowej
+K04.8;Torbiel korzeniowa
+K04.9;Inne i nieokreślone choroby miazgi i tkanek okołowierzchołkowych
+K05;Zapalenie dziąseł i choroby przyzębia
+K05.0;Ostre zapalenie dziąseł
+K05.1;Przewlekłe zapalenie dziąseł
+K05.2;Ostre zapalenie przyzębia
+K05.3;Przewlekłe zapalenie przyzębia
+K05.4;Desmodontoza
+K05.5;Inne choroby przyzębia
+K05.6;Choroba przyzębia, nie określona
+K06;Inne zaburzenia dziąsła i bezzębny wyrostek zębodołowy
+K06.0;Zanik dziąseł
+K06.1;Przerost dziąseł
+K06.2;Uszkodzenie dziąseł i bezzębnego wyrostka zębodołowego związane z urazem
+K06.8;Inne określone zaburzenia dziąseł i bezzębnego wyrostka zębodołowego
+K06.9;Zaburzenia dziąseł i bezzębnego wyrostka zębodołowego, nie określone
+K07;Nieprawidłowości zębowo-twarzowe [łącznie z wadami zgryzu]
+K07.0;Znaczne nieprawidłowości wymiaru szczęk
+K07.1;Nieprawidłowości stosunku szczęk do podstawy czaszki
+K07.2;Nieprawidłowości stosunku łuków zębowych
+K07.3;Nieprawidłowości położenia zębów
+K07.4;Wady zgryzu, nie określone
+K07.5;Nieprawidłowości czynnościowe zębowo-twarzowe
+K07.6;Zaburzenia stawów skroniowo-żuchwowych
+K07.8;Inne nieprawidłowości zębowo-twarzowe
+K07.9;Nieprawidłowość zębowo-twarzowa, nie określona
+K08;Inne zaburzenia zębów i struktur podtrzymujących (podłoża)
+K08.0;Eksfoliacja zębów w wyniku przyczyn układowych
+K08.1;Utrata zębów z powodu wypadku, usunięcia lub miejscowych chorób przyzębia
+K08.2;Zanik grzbietu bezzębnego wyrostka zębodołowego
+K08.3;Zatrzymany korzeń zęba
+K08.8;Inne określone zaburzenia zębów i struktur podtrzymujących
+K08.9;Zaburzenia zębów i struktur podtrzymujących, nie określone
+K09;Torbiele okolicy jamy ustnej niesklasyfikowane gdzie indziej
+K09.0;Torbiele rozwojowe zębopochodne
+K09.1;Torbiele rozwojowe (niezębopochodne) okolicy jamy ustnej
+K09.2;Inne torbiele szczęk
+K09.8;Inne torbiele okolicy jamy ustnej niesklasyfikowane gdzie indziej
+K09.9;Torbiel okolicy jamy ustnej, nie określona
+K10;Inne choroby szczęk i żuchwy
+K10.0;Zaburzenia rozwojowe szczęk i żuchwy
+K10.1;Ziarniniak olbrzymiokmórkowy, centralny
+K10.2;Stany zapalne szczęk i żuchwy
+K10.3;Zapalenie zębodołu szczęk i żuchwy
+K10.8;Inne określone choroby szczęk i żuchwy
+K10.9;Choroba szczęk lub żuchwy, nie określona
+K11;Choroby gruczołów ślinowych
+K11.0;Zanik gruczołu ślinowego
+K11.1;Przerost gruczołu ślinowego
+K11.2;Zapalenie gruczołu ślinowego
+K11.3;Ropień gruczołu ślinowego
+K11.4;Przetoka gruczołu ślinowego
+K11.5;Kamica ślinianek
+K11.6;Torbiel śluzowa [mukocele]
+K11.7;Zaburzenia wydzielania śliny
+K11.8;Inne choroby gruczołów ślinowych
+K11.9;Choroba gruczołu ślinowego, nie określona
+K12;Zapalenie jamy ustnej i pochodne zmiany
+K12.0;Nawracające afty jamy ustnej
+K12.1;Inne postacie zapalenia jamy ustnej
+K12.2;Zapalenie tkanki łącznej i ropień jamy ustnej
+K13;Inne choroby śluzówki warg i jamy ustnej
+K13.0;Choroby warg
+K13.1;Nagryzanie policzka i wargi
+K13.2;Rogowacenie białe i inne choroby nabłonka jamy ustnej, włączając język
+K13.3;Włochate rogowacenie białe
+K13.4;Ziarniniak i ziarniniakopodobne choroby śluzówki jamy ustnej
+K13.5;Zwłóknienie podśluzowe jamy ustnej
+K13.6;Rozrost z podrażnienia śluzówki jamy ustnej
+K13.7;Inne i nieokreślone choroby śluzówki jamy ustnej
+K14;Choroby języka
+K14.0;Zapalenie języka
+K14.1;Język geograficzny
+K14.2;Zapalenie języka pośrodkowe romboidalne
+K14.3;Przerost brodawek języka
+K14.4;Zanik brodawek języka
+K14.5;Język pofałdowany
+K14.6;Ból języka [przeczulica]
+K14.8;Inne choroby języka
+K14.9;Choroby języka, nie określone
+K20;Zapalenie przełyku
+K21;Zarzucanie (refluks) żołądkowo-przełykowe
+K21.0;Zarzucanie (refluks) żołądkowo-przełykowe z zapaleniem przełyku
+K21.9;Zarzucanie żołądkowo-przełykowe bez zapalenia przełyku
+K22;Inne choroby przełyku
+K22.0;Achalazja wpustu
+K22.1;Wrzód przełyku
+K22.2;Niedrożność przełyku
+K22.3;Przedziurawienie przełyku
+K22.4;Dyskineza przełyku
+K22.5;Uchyłek przełyku nabyty
+K22.6;Żołądkowo-przełykowe pęknięcie śluzówki z krwawieniem
+K22.8;Inne określone choroby przełyku
+K22.9;Choroba przełyku, nie określona
+K23;*Schorzenia przełyku w chorobach sklasyfikowanych gdzie indziej
+K23*;*Schorzenia przełyku w chorobach sklasyfikowanych gdzie indziej
+K23.0;*Gruźlicze zapalenie przełyku (A18.8+)
+K23.1;*Przełyk olbrzymi w chorobie Chagasa (B57.3+)
+K23.8;*Zaburzenia przełyku w innych chorobach sklasyfikowanych gdzie indziej
+K25;Wrzód żołądka
+K25.0;Wrzód żołądka (ostry z krwotokiem)
+K25.1;Wrzód żołądka (ostry z przedziurawieniem)
+K25.2;Wrzód żołądka (ostry z krwotokiem i przedziurawieniem)
+K25.3;Wrzód żołądka (ostry bez wzmianku o krwotoku lub przedziuraw
+K25.4;Wrzód żołądka (przewlekły lub nieokreślony z krwotokiem)
+K25.5;Wrzód żołądka (przewlekły lub nieokreślony z przedziurawieni
+K25.6;Wrzód żołądka (przewlekły lub nieokreślony z krwotokiem i pr
+K25.7;Wrzód żołądka (przewlekły bez wzmianki o krwotoku lub przedz
+K25.9;Wrzód żołądka (nie określony jako ostry lub przewlekły bez w
+K26;Wrzód dwunastnicy
+K26.0;Wrzód dwunastnicy (ostry z krwotokiem)
+K26.1;Wrzód dwunastnicy (ostry z przedziurawieniem)
+K26.2;Wrzód dwunastnicy (ostry z krwotokiem i przedziurawieniem)
+K26.3;Wrzód dwunastnicy (ostry bez wzmianku o krwotoku lub przedzi
+K26.4;Wrzód dwunastnicy (przewlekły lub nieokreślony z krwotokiem)
+K26.5;Wrzód dwunastnicy (przewlekły lub nieokreślony z przedziuraw
+K26.6;Wrzód dwunastnicy (przewlekły lub nieokreślony z krwotokiem
+K26.7;Wrzód dwunastnicy (przewlekły bez wzmianki o krwotoku lub pr
+K26.9;Wrzód dwunastnicy (nie określony jako ostry lub przewlekły b
+K27;Wrzód trawienny o nieokreślonym umiejscowieniu
+K27.0;Wrzód trawienny o nieokreślonym umiejscowieniu (ostry z krwo
+K27.1;Wrzód trawienny o nieokreślonym umiejscowieniu (ostry z prze
+K27.2;Wrzód trawienny o nieokreślonym umiejscowieniu (ostry z krwo
+K27.3;Wrzód trawienny o nieokreślonym umiejscowieniu (ostry bez wz
+K27.4;Wrzód trawienny o nieokreślonym umiejscowieniu (przewlekły l
+K27.5;Wrzód trawienny o nieokreślonym umiejscowieniu (przewlekły l
+K27.6;Wrzód trawienny o nieokreślonym umiejscowieniu (przewlekły l
+K27.7;Wrzód trawienny o nieokreślonym umiejscowieniu (przewlekły b
+K27.9;Wrzód trawienny o nieokreślonym umiejscowieniu (nie określon
+K28;Wrzód żołądka i jelit
+K28.0;Wrzód żołądka i jelit (ostry z krwotokiem)
+K28.1;Wrzód żołądka i jelit (ostry z przedziurawieniem)
+K28.2;Wrzód żołądka i jelit (ostry z krwotokiem i przedziurawienie
+K28.3;Wrzód żołądka i jelit (ostry bez wzmianku o krwotoku lub prz
+K28.4;Wrzód żołądka i jelit (przewlekły lub nieokreślony z krwotok
+K28.5;Wrzód żołądka i jelit (przewlekły lub nieokreślony z przedzi
+K28.6;Wrzód żołądka i jelit (przewlekły lub nieokreślony z krwotok
+K28.7;Wrzód żołądka i jelit (przewlekły bez wzmianki o krwotoku lu
+K28.9;Wrzód żołądka i jelit (nie określony jako ostry lub przewlek
+K29;Zapalenie żołądka i dwunastnicy
+K29.0;Ostre krwotoczne zapalenie żołądka
+K29.1;Inne ostre zapalenie żołądka
+K29.2;Alkoholowe zapalenie żołądka
+K29.3;Przewlekłe powierzchowne zapalenie żołądka
+K29.4;Przewlekłe zanikowe zapalenie żołądka
+K29.5;Przewlekłe zapalenie żołądka, nie określone
+K29.6;Inne zapalenia żołądka
+K29.7;Zapalenie żołądka, nie określone
+K29.8;Zapalenie dwunastnicy
+K29.9;Zapalenie żołądka i dwunastnicy, nie określone
+K30;Dyspepsja
+K31;Inne choroby żołądka i dwunastnicy
+K31.0;Ostra rozstrzeń żołądka
+K31.1;Zwężenie przerostowe odźwiernika dorosłych
+K31.2;Przewężenie klepsydrowate lub zwężenie żołądka
+K31.3;Kurcz odźwiernika niesklasyfikowany gdzie indziej
+K31.4;Uchyłek żołądka
+K31.5;Niedrożność dwunastnicy
+K31.6;Przetoka żołądka lub dwunastnicy
+K31.8;Inne określone choroby żołądka i dwunastnicy
+K31.9;Choroba żołądka i dwunastnicy, nie określone
+K35;Ostre zapalenie wyrostka robaczkowego
+K35.0;Ostre zapalenie wyrostka robaczkowego z rozlanym zapaleniem otrzewnej
+K35.1;Ostre zapalenie wyrostka robaczkowego z ropniem otrzewnej
+K35.9;Ostre zapalenie wyrostka robaczkowego, nie określone
+K36;Inne zapalenie wyrostka robaczkowego
+K37;Zapalenie wyrostka robaczkowego, nie określone
+K38;Inne choroby wyrostka robaczkowego
+K38.0;Rozrost wyrostka robaczkowego
+K38.1;Kamienie wyrostkowe
+K38.2;Uchyłek wyrostka robaczkowego
+K38.3;Przetoka wyrostka robaczkowego
+K38.8;Inne określone choroby wyrostka robaczkowego
+K38.9;Choroby wyrostka robaczkowego, nie określone
+K40;Przepuklina pachwinowa
+K40.0;Obustronna przepuklina pachwinowa, z niedrożnością bez zgorzeli
+K40.1;Obustronna przepuklina pachwinowa, ze zgorzelą
+K40.2;Obustronna przepuklina pachwinowa, bez niedrożności lub zgorzeli
+K40.3;Jednostronna lub nieokreślona przepuklina pachwinowa z niedrożnością bez zgorzeli
+K40.4;Jednostronna lub nieokreślona przepuklina pachwinowa ze zgorzelą
+K40.9;Jednostronna lub nieokreślona przepuklina pachwinowa bez niedrożności lub zgorzeli
+K41;Przepuklina udowa
+K41.0;Obustronna przepuklina udowa, z niedrożnością bez zgorzeli
+K41.1;Obustronna przepuklina udowa, ze zgorzelą
+K41.2;Obustronna przepuklina udowa, bez niedrożności lub zgorzeli
+K41.3;Jednostronna lub nieokreślona przepuklina udowa, z niedrożnością bez zgorzeli
+K41.4;Jednostronna lub nieokreślona przepuklina udowa ze zgorzelą
+K41.9;Jednostronna lub nieokreślona przepuklina udowa bez niedrożności lub zgorzeli
+K42;Przepuklina pępkowa
+K42.0;Przepuklina pępkowa, z niedrożnością bez zgorzeli
+K42.1;Przepuklina pępkowa ze zgorzelą
+K42.9;Przepuklina pępkowa bez niedrożności lub zgorzeli
+K43;Przepuklina brzuszna
+K43.0;Przepuklina brzuszna z niedrożnością bez zgorzeli
+K43.1;Przepuklina brzuszna ze zgorzelą
+K43.9;Przepuklina brzuszna bez niedrożności lub zgorzeli
+K44;Przepuklina przeponowa
+K44.0;Przepuklina przeponowa z niedrożnością bez zgorzeli
+K44.1;Przepuklina przeponowa ze zgorzelą
+K44.9;Przepuklina przeponowa bez niedrożności lub zgorzeli
+K45;Inne przepukliny brzuszne
+K45.0;Inne określone przepukliny brzuszne z niedrożnością bez zgorzeli
+K45.1;Inne określone przepukliny brzuszne ze zgorzelą
+K45.8;Inne określone przepukliny brzuszne bez niedrożności lub zgorzeli
+K46;Nieokreślone przepukliny brzuszne
+K46.0;Nieokreślone przepukliny brzuszne z niedrożnością bez zgorzeli
+K46.1;Nieokreślone przepukliny brzuszne ze zgorzelą
+K46.9;Nieokreślone przepukliny brzuszne bez niedrożności lub zgorzeli
+K50;Choroba Crohna [odcinkowe zapalenie jelita]
+K50.0;Choroba Crohna jelita cienkiego
+K50.1;Choroba Crohna jelita grubego
+K50.8;Inne postacie choroby Crohna
+K50.9;Choroba Crohna, nie określona
+K51;Wrzodziejące zapalenie jelita grubego
+K51.0;Wrzodziejące (przewlekłe) zapalenie jelita cienkiego i grubego
+K51.1;Wrzodziejące (przewlekłe) zapalenie jelita krętego i grubego
+K51.2;Wrzodziejące (przewlekłe) zapalenie prostnicy
+K51.3;Wrzodziejące (przewlekłe) zapalenie prostnicy i esicy
+K51.4;Rzekoma polipowatość jelita grubego
+K51.5;Śluzowe zapalenie prostnicy i okrężnicy
+K51.8;Inne wrzodziejące zapalenie jelita grubego
+K51.9;Wrzodziejące zapalenie jelita grubego, nie określone
+K52;Inne niezakaźne zapalenie żołądkowo-jelitowe i jelita grubego
+K52.0;Zapalenie żołądka, jelit i okrężnicy wywołane promieniowaniem
+K52.1;Toksyczne zapalenie żołądka, jelit i okrężnicy
+K52.2;Uczuleniowe i związane z działaniem pokarmu zapalenie żołądkowo-jelitowe i jelita grubego
+K52.8;Inne określone niezakaźne zapalenie żołądkowo-jelitowe i jelita grubego
+K52.9;Niezakaźne zapalenie żołądkowo-jelitowe i jelita grubego, nie określone
+K55;Naczyniowe zaburzenia jelit
+K55.0;Ostre naczyniowe zaburzenia jelit
+K55.1;Przewlekłe naczyniowe zaburzenia jelit
+K55.2;Angiodysplazja jelita grubego
+K55.8;Inne naczyniowe zaburzenia jelit
+K55.9;Naczyniowe zaburzenia jelit, nie określone
+K56;Niedrożność porażenna i niedrożność jelit bez przepukliny
+K56.0;Niedrożność porażenna
+K56.1;Wgłobienie
+K56.2;Skręt jelita
+K56.3;Niedrożność wywołana kamieniem żółciowym
+K56.4;Inne postacie zatkania jelita
+K56.5;Zrosty jelitowe z niedrożnością
+K56.6;Inne i nieokreślone postacie niedrożności jelitowej
+K56.7;Niedrożność, nie określona
+K57;Choroba uchyłkowa jelit
+K57.0;Choroba uchyłkowa jelita cienkiego z przedziurawieniem i ropniem
+K57.1;Choroba uchyłkowa jelita cienkiego bez przedziurawienia lub ropnia
+K57.2;Choroba uchyłkowa jelita grubego z przedziurawieniem i ropniem
+K57.3;Choroba uchyłkowa jelita grubego bez przedziurawienia lub ropnia
+K57.4;Choroba uchyłkowa jelita cienkiego i grubego z przedziurawieniem i ropniem
+K57.5;Choroba uchyłkowa jelita cienkiego i grubego bez przedziurawienia lub ropnia
+K57.8;Choroba uchyłkowa jelita, części nieokreślonej, z przedziurawieniem i ropniem
+K57.9;Choroba uchyłkowa jelita, części nieokreślonej, bez przedziurawienia lub ropnia
+K58;Zespół drażliwego jelita
+K58.0;Zespół pobudliwego jelita z biegunką
+K58.9;Zespół pobudliwego jelita bez biegunki
+K59;Inne czynnościowe zaburzenia jelit
+K59.0;Zaparcie
+K59.1;Biegunka czynnościowa
+K59.2;Jelito neurogenne, niesklasyfikowane gdzie indziej
+K59.3;Okrężnica olbrzymia [megacolon], niesklasyfikowana gdzie indziej
+K59.4;Kurcz odbytu
+K59.8;Inne określone czynnościowe zaburzenia jelit
+K59.9;Czynnościowe zaburzenia jelit, nie określone
+K60;Szczelina i przetoka okolic odbytu i odbytnicy
+K60.0;Ostra szczelina odbytu
+K60.1;Przewlekła szczelina odbytu
+K60.2;Szczelina odbytu, nie określona
+K60.3;Przetoka odbytu
+K60.4;Przetoka odbytnicza
+K60.5;Przetoka odbytowo-odbytnicza
+K61;Ropień okolic odbytu i odbytnicy
+K61.0;Ropień odbytu
+K61.1;Ropień odbytniczy
+K61.2;Ropień odbytniczo-odbytowy
+K61.3;Ropień kulszowo-odbytniczy
+K61.4;Ropień wewnątrzzwieraczowy
+K62;Inne choroby odbytu i odbytnicy
+K62.0;Polip odbytu
+K62.1;Polip odbytnicy
+K62.2;Wypadnięcie odbytu
+K62.3;Wypadnięcie odbytnicy
+K62.4;Zwężenie odbytu i odbytnicy
+K62.5;Krwawnienie z odbytu i odbytnicy
+K62.6;Wrzód odbytu i odbytnicy
+K62.7;Popromienne zapalenie prostnicy
+K62.8;Inne określone choroby odbytu i odbytnicy
+K62.9;Choroby odbytu i odbytnicy, nie określone
+K63;Inne choroby jelit
+K63.0;Ropień jelit
+K63.1;Przedziurawienie jelita (nieurazowe)
+K63.2;Przetoka jelitowa
+K63.3;Wrzód jelita
+K63.4;Opadnięcie trzewi
+K63.8;Inne określone choroby jelit
+K63.9;Choroba jelita, nie określona
+K65;Zapalenie otrzewnej
+K65.0;Ostre zapalenie otrzewnej
+K65.8;Inne zapalenie otrzewnej
+K65.9;Zapalenie otrzewnej, nie określone
+K66;Inne zaburzenia otrzewnej
+K66.0;Zrosty otrzewnowe
+K66.1;Krwiak otrzewnej
+K66.8;Inne określone zaburzenia otrzewnej
+K66.9;Schorzenia otrzewnej, nie określone
+K67;*Schorzenia otrzewnej w chorobach zakaźnych sklasyfikowanych gdzie indziej
+K67*;*Schorzenia otrzewnej w chorobach zakaźnych sklasyfikowanych gdzie indziej
+K67.0;*Zapalenie otrzewnej wywołane przez Chlamydie (A74.8+)
+K67.1;*Rzeżączkowe zapalenie otrzewnej (A54.8+)
+K67.2;*Kiłowe zapalenie otrzewnej (A52.7+)
+K67.3;*Gruźlicze zapalenie otrzewnej (A18.3+)
+K67.8;*Inne zaburzenia otrzewnej w chorobach zakaźnych sklasyfikowanych gdzie indziej
+K70;Alkoholowa choroba watroby
+K70.0;Alkoholowe stłuszczenie wątroby
+K70.1;Alkoholowe zapalenie wątroby
+K70.2;Alkoholowe zwłóknienie i stwardnienie wątroby
+K70.3;Alkoholowa marskość wątroby
+K70.4;Alkoholowa niewydolność wątroby
+K70.9;Alkoholowa choroba wątroby, nie określona
+K71;Toksyczna choroba wątroby
+K71.0;Toksyczna choroba wątroby z zastojem żółci
+K71.1;Toksyczna choroba wątroby z martwicą wątroby
+K71.2;Toksyczna choroba wątroby z ostrym zapaleniem wątroby
+K71.3;Toksyczna choroba wątroby z przewlekłym przetrwałym zapaleniem wątroby
+K71.4;Toksyczna choroba wątroby z przewlekłym zrazikowym zapaleniem wątroby
+K71.5;Toksyczna choroba wątroby z przewlekłym aktywnym zapaleniem wątroby
+K71.6;Toksyczna choroba wątroby z zapaleniem wątroby niesklasyfikowanym gdzie indziej
+K71.7;Toksyczna choroba wątroby ze zwłóknieniem i marskością wątroby
+K71.8;Toksyczna choroba wątroby z innymi zaburzeniami wątroby
+K71.9;Toksyczna choroba wątroby, nie określona
+K72;Niewydolność wątroby niesklasyfikowana gdzie indziej
+K72.0;Ostra i podostra niewydolność wątroby
+K72.1;Przewlekła niewydolność wątroby
+K72.9;Niewydolność wątroby, nie określona
+K73;Przewlekłe zapalenie wątroby niesklasyfikowane gdzie indziej
+K73.0;Przewlekłe przetrwałe zapalenie wątroby niesklasyfikowane gdzie indziej
+K73.1;Przewlekłe zrazikowe zapalenie wątroby niesklasyfikowane gdzie indziej
+K73.2;Przewlekłe aktywne zapalenie wątroby niesklasyfikowane gdzie indziej
+K73.8;Inne przewlekłe zapalenie wątroby niesklasyfikowane gdzie indziej
+K73.9;Przewlekłe zapalenie wątroby, nie określone
+K74;Zwłóknienie i marskość wątroby
+K74.0;Zwłóknienie wątroby
+K74.1;Stwardnienie wątroby
+K74.2;Zwłóknienie wątroby ze stwardnieniem wątroby
+K74.3;Pierwotna marskość żółciowa
+K74.4;Wtórna marskość żółciowa
+K74.5;Marskość żółciowa, nie określona
+K74.6;Inna i nieokreślona marskość wątroby
+K75;Inne zapalne choroby wątroby
+K75.0;Ropień wątroby
+K75.1;Zapalenie żyły wrotnej
+K75.2;Nieokreślone odczynowe zapalenie wątroby
+K75.3;Ziarniniakowe zapalenie wątroby niesklasyfikowane gdzie indziej
+K75.8;Inne określone choroby zapalne wątroby
+K75.9;Choroba zakaźna wątroby, nie określona
+K76;Inne choroby watroby
+K76.0;Stłuszczenie wątroby niesklasyfikowane gdzie indziej
+K76.1;Przewlekłe przekrwienie bierne wątroby
+K76.2;Centralna krwotoczna martwica wątroby
+K76.3;Zawał wątroby
+K76.4;Plamica wątroby
+K76.5;Choroba wątroby z zamknięciem naczyń żylnych
+K76.6;Nadciśninie wrotne
+K76.7;Zespół wątrobowo-nerkowy
+K76.8;Inne określone choroby wątroby
+K76.9;Choroba wątroby, nie określona
+K77;*Schorzenia wątroby w chorobach sklasyfikowanych gdzie indziej
+K77*;*Schorzenia wątroby w chorobach sklasyfikowanych gdzie indziej
+K77.0;*Schorzenia wątroby w chorobach zakaźnych i pasożytniczych sklasyfikowanych gdzie indziej
+K77.8;*Schorzenia wątroby w chorobach sklasyfikowanych gdzie indziej
+K80;Kamica żółciowa
+K80.0;Kamica pęcherzyka żółciowego z ostrym zapaleniem pęcherzyka żółciowego
+K80.1;Kamica pęcherzyka żółciowego z innym zapaleniem pęcherzyka żółciowego
+K80.2;Kamica pęcherzyka żółciowego bez zapalenia pęcherzyka żółciowego
+K80.3;Kamica przewodu żółciowego z zapaleniem (dróg żółciowych)
+K80.4;Kamica przewodu żółciowego z zapaleniem pęcherzyka żółciowego
+K80.5;Kamica przewodu żółciowego bez zapalenia pęcherzyka żółciowego lub dróg żółciowych
+K80.8;Inne kamice żółciowe
+K81;Zapalenie pęcherzyka żółciowego
+K81.0;Ostre zapalenie pęcherzyka żółciowego
+K81.1;Przewlekłe zapalenie pęcherzyka żółciowego
+K81.8;Inne zapalenie pęcherzyka żółciowego
+K81.9;Zapalenie pęcherzyka żółciowego, nie określone
+K82;Inne choroby pęcherzyka żółciowego
+K82.0;Niedrożność pęcherzyka żółciowego
+K82.1;Wodniak pęcherzyka żółciowego
+K82.2;Przedziurawienie pęcherzyka żółciowego
+K82.3;Przetoka pęcherzyka żółciowego
+K82.4;Zwyrodnienie cholesterolowe pęcherzyka żółciowego [cholesterolosis]
+K82.8;Inne określone choroby pęcherzyka żółciowego
+K82.9;Choroba pęcherzyka żółciowego, nie określona
+K83;Inne choroby przewodów żółciowych
+K83.0;Zapalenie dróg żółciowych
+K83.1;Niedrożność przewodów żółciowych
+K83.2;Przedziurawienie przewodów żółciowych
+K83.3;Przetoka przewodów żółciowych
+K83.4;Kurcz zwieracza Oddiego
+K83.5;Torbiel żółciowa
+K83.8;Inne określone choroby przewodów żółciowych
+K83.9;Choroba przewodów żółciowych, nie określona
+K85;Ostre zapalenie trzustki
+K86;Inne choroby trzustki
+K86.0;Przewlekłe zapalenie trzustki wywołana alkoholem
+K86.1;Inne przewlekłe zapalenia trzustki
+K86.2;Torbiel trzustki
+K86.3;Torbiel rzekoma trzustki
+K86.8;Inne określone choroby trzustki:
+K86.9;Choroba trzustki, nie określona
+K87;*Schorzenia pęcherzyka żółciowego, dróg żółciowych i trzustki w chorobach sklasyfikowanych gdzie indziej
+K87*;*Schorzenia pęcherzyka żółciowego, przewodów żółciowych i trzustki w chorobach sklasyfikowanych gdzie indziej
+K87.0;*Schorzenia pęcherzyka żółciowego i przewodów żółciowych w chorobach sklasyfikowanych gdzie indziej
+K87.1;*Schorzenia trzustki w chorobach sklasyfikowanych gdzie indziej
+K90;Nieprawidłowe wchłanianie jelitowe
+K90.0;Choroba trzewna [celiakia]
+K90.1;Sprue tropikalne
+K90.2;Zespół ślepej pętli niesklasyfikowany gdzie indziej
+K90.3;Tłuszczowa biegunka trzustkowa
+K90.4;Nieprawidłowe wchłanianie wywołane przez nietolerancję, niesklasyfikowane gdzie indziej
+K90.8;Inne nieprawidłowe wchłanianie jelitowe
+K90.9;Nieprawidłowe wchłanianie jelitowe, nie określone
+K91;Pooperacyjne zaburzenia układu pokarmowego niesklasyfikowane gdzie indziej
+K91.0;Wymioty spowodowane zabiegami chirurgicznymi żołądkowo-jelitowymi
+K91.1;Zespoły po zabiegach chirurgicznych żołądka
+K91.2;Nieprawidłowe wchłanianie po zabiegach chirurgicznych niesklasyfikowane gdzie indziej
+K91.3;Pooperacyjna niedrożność jelitowa
+K91.4;Nieprawidłowa czynność zespoleń okrężniczych lub jelitowych (kolostomii, enterostomii)
+K91.5;Zespół po usunięciu pęcherzyka żółciowego
+K91.8;Inne pooperacyjne zaburzenia układu pokarmowego niesklasyfikowane gdzie indziej
+K91.9;Pooperacyjne zaburzenia układu pokarmowego, nie określone
+K92;Inne choroby układu pokarmowego
+K92.0;Wymioty krwawe
+K92.1;Stolce smołowate
+K92.2;Krwotok żołądkowo-jelitowy, nie określony
+K92.8;Inne określone choroby układu pokarmowego
+K92.9;Choroba układu pokarmowego, nie określona
+K93;*Schorzenia innych narządów układu pokarmowego w chorobach sklasyfikowanych gdzie indziej
+K93*;*Schorzenia innych narządów układu pokarmowego w chorobach sklasyfikowanych gdzie indziej
+K93.0;*Gruźlicze zaburzenia jelit, otrzewnej i węzłów chłonnych krezkowych (A18.3+)
+K93.1;*Okrężnica olbrzymia w chorobie Chagasa (B57.3+)
+K93.8;*Zaburzenia innych określonych narządów układu pokarmowego w chorobach sklasyfikowanych gdzie indziej
+00; nie dotyczy
