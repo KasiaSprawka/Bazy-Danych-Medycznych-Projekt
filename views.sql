@@ -5,7 +5,8 @@ SELECT
     CONCAT(o2.imie, ' ', o2.nazwisko) AS lekarz,
     w.data_wizyty,
     icd10.nazwa AS schorzenie,
-    icd9.kategoria_tytul,
+    icd9.kategoria_tytul, 
+    z.opis AS ząb,
     CONCAT(r.srednica_mm,'/',r.dlugosc_mm) AS 'rozmiar_implantu: średnica/długość [mm]',
     m1.material AS material_implantu,
     m2.material AS material_korony,
@@ -37,6 +38,8 @@ FROM
 	materialy m2 ON k.m_id = m2.m_id
 		JOIN 
 	odcienie_koron ok ON  pr.id_ic LIKE concat('%',ok.o_id,'%')
+		JOIN
+	zeby z on z.z_id = pr.z_id
     
 UNION
 
@@ -47,6 +50,7 @@ SELECT
     w.data_wizyty,
     icd10.nazwa AS schorzenie,
     icd9.kategoria_tytul,
+    z.opis AS ząb,
     'nie dotyczy',
     'nie dotyczy',
     'nie dotyczy',
@@ -66,6 +70,8 @@ FROM
 	icd10 ON pr.kod_schorzenia = icd10.kod
     	JOIN
 	icd9 ON pr.kod_procedury = icd9.kategoria_numer
+    	JOIN
+	zeby z on z.z_id = pr.z_id
 WHERE pr.id_ic IS NULL
 ORDER BY w_id;
 
