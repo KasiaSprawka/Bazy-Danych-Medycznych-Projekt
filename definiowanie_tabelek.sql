@@ -162,10 +162,12 @@ CREATE TABLE wizyty (
 
 CREATE TABLE przebieg (
     w_id SMALLINT(5) UNSIGNED NOT NULL,
-    z_id INT(1) DEFAULT NULL,
+    z_id INT(1),
     kod_schorzenia VARCHAR(7),
     kod_procedury DECIMAL(6,4),
-    id_ic VARCHAR(20),
+    i_id VARCHAR(15),
+    k_id VARCHAR(8),
+    o_id CHAR(2),
     komentarz VARCHAR(100),
     FOREIGN KEY (w_id)
         REFERENCES wizyty (w_id),
@@ -174,5 +176,11 @@ CREATE TABLE przebieg (
     FOREIGN KEY (kod_procedury)
         REFERENCES icd9 (kategoria_numer),
     FOREIGN KEY (z_id)
-        REFERENCES zeby (z_id)
+        REFERENCES zeby (z_id),
+	FOREIGN KEY (i_id)
+        REFERENCES implanty (i_id),
+    FOREIGN KEY (k_id)
+        REFERENCES korony (k_id),
+    FOREIGN KEY (o_id)
+        REFERENCES odcienie_koron (o_id)
 ); 
