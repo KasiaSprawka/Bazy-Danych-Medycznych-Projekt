@@ -12,7 +12,7 @@ import time
 w_id = 2
 
 # Open database connection
-db = MySQLdb.connect("localhost","Kasia :)","mysql","protetyka_denstystyczna")
+db = MySQLdb.connect("localhost","Kasia :)","mysql","protetyka_dentystyczna")
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
