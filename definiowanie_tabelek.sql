@@ -1,9 +1,10 @@
-#CREATE DATABASE protetyka_dentystyczna;
+CREATE DATABASE protetyka_dentystyczna;
+USE protetyka_dentystyczna;
 
 CREATE TABLE icd10 (
-    kod VARCHAR(7) NOT NULL,
+    kod_icd10 VARCHAR(7) NOT NULL,
     nazwa VARCHAR(300) NOT NULL,
-    PRIMARY KEY (kod)
+    PRIMARY KEY (kod_icd10)
 );
 
 CREATE TABLE icd9 (
@@ -21,14 +22,14 @@ CREATE TABLE miasta_polskie (
 );
 
 CREATE TABLE osoby (
-    id SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
+    id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
     imie VARCHAR(20) NOT NULL,
     nazwisko VARCHAR(20) NOT NULL,
     PRIMARY KEY (id)
 );
 
 CREATE TABLE adresy (
-    id SMALLINT(5) UNSIGNED NOT NULL,
+    id SMALLINT UNSIGNED NOT NULL,
     ulica_i_numer_domu VARCHAR(100) NOT NULL,
     id_miasto MEDIUMINT(8) UNSIGNED NOT NULL,
     kod_pocztowy VARCHAR(10) NOT NULL,
@@ -40,15 +41,15 @@ CREATE TABLE adresy (
 ); 
 
 CREATE TABLE dane_kontaktowe (
-    id SMALLINT(5) UNSIGNED NOT NULL,
+    id SMALLINT UNSIGNED NOT NULL,
     numer_telefonu VARCHAR(100),
-    email VARCHAR(100) UNIQUE,
+    email VARCHAR(100) UNIQUE NULL,
     FOREIGN KEY (id)
         REFERENCES osoby (id)
 );
 
 CREATE TABLE lekarze (
-    l_id SMALLINT(5) UNSIGNED NOT NULL,
+    l_id SMALLINT UNSIGNED NOT NULL,
     numer_PWZ INT(3) NOT NULL,
     PRIMARY KEY (numer_PWZ),
     FOREIGN KEY (l_id)
@@ -62,7 +63,7 @@ CREATE TABLE specjalizacje (
 );
 
 CREATE TABLE lekarze_specjalizacje_link (
-    l_id SMALLINT(5) UNSIGNED NOT NULL,
+    l_id SMALLINT UNSIGNED NOT NULL,
     s_id INT(1) UNSIGNED NOT NULL,
     FOREIGN KEY (l_id)
         REFERENCES lekarze (l_id),
@@ -71,7 +72,7 @@ CREATE TABLE lekarze_specjalizacje_link (
 ); 
 
 CREATE TABLE pacjenci (
-    p_id SMALLINT(5) UNSIGNED NOT NULL,
+    p_id SMALLINT UNSIGNED NOT NULL,
     pesel VARCHAR(12) DEFAULT NULL,
     data_urodzenia DATE,
     FOREIGN KEY (p_id)
@@ -79,14 +80,24 @@ CREATE TABLE pacjenci (
 );
 
 CREATE TABLE personel (
-    pe_id SMALLINT(5) UNSIGNED NOT NULL,
+    pe_id SMALLINT UNSIGNED NOT NULL,
     funkcja VARCHAR(20) NOT NULL,
     FOREIGN KEY (pe_id)
         REFERENCES osoby (id)
 ); 
 
+CREATE TABLE uzytkownicy(
+	u_id SMALLINT UNSIGNED NOT NULL,
+    login VARCHAR(50),
+    haslo_HASH BLOB,
+    rola VARCHAR(20),
+    PRIMARY KEY(login),
+    FOREIGN KEY (u_id) 
+		REFERENCES osoby(id)
+);
+
 CREATE TABLE producenci (
-    pr_id SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
+    pr_id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
     nazwa VARCHAR(50) UNIQUE NOT NULL,
     siedziba MEDIUMINT(8) UNSIGNED NOT NULL,
     telefon VARCHAR(40) UNIQUE,
@@ -103,10 +114,10 @@ CREATE TABLE materialy (
 ); 
 
 CREATE TABLE implanty (
-    pr_id SMALLINT(5) UNSIGNED NOT NULL,
-    i_id VARCHAR(15) NOT NULL,
+    pr_id SMALLINT UNSIGNED NOT NULL,
+    kod_implantu VARCHAR(15) NOT NULL,
     m_id VARCHAR(5) NOT NULL,
-    PRIMARY KEY (i_id),
+    PRIMARY KEY (kod_implantu),
     FOREIGN KEY (pr_id)
         REFERENCES producenci (pr_id)
         ON DELETE CASCADE,
@@ -115,19 +126,19 @@ CREATE TABLE implanty (
 ); 
 
 CREATE TABLE rozmiary_implantow (
-    i_id VARCHAR(15) NOT NULL,
+    kod_implantu VARCHAR(15) NOT NULL,
     srednica_mm DECIMAL(3,1) NOT NULL,
     dlugosc_mm DECIMAL(3,1) NOT NULL,
-    FOREIGN KEY (i_id)
-        REFERENCES implanty (i_id)
+    FOREIGN KEY (kod_implantu)
+        REFERENCES implanty (kod_implantu)
         ON DELETE CASCADE
 ); 
 
 CREATE TABLE korony (
-    k_id VARCHAR(8) NOT NULL,
-    pr_id SMALLINT(5) UNSIGNED NOT NULL,
+    kod_korony VARCHAR(8) NOT NULL,
+    pr_id SMALLINT UNSIGNED NOT NULL,
     m_id VARCHAR(5) NOT NULL,
-    PRIMARY KEY (k_id),
+    PRIMARY KEY (kod_korony),
     FOREIGN KEY (pr_id)
         REFERENCES producenci (pr_id)
         ON DELETE CASCADE,
@@ -136,10 +147,10 @@ CREATE TABLE korony (
 ); 
 
 CREATE TABLE odcienie_koron (
-    o_id CHAR(2) NOT NULL,
+    kod_odcienia CHAR(2) NOT NULL,
     kolor VARCHAR(20) NOT NULL,
     intensywność INT(1) NOT NULL,
-    PRIMARY KEY (o_id)
+    PRIMARY KEY (kod_odcienia)
 ); 
 
 CREATE TABLE zeby (
@@ -149,38 +160,45 @@ CREATE TABLE zeby (
 );
 
 CREATE TABLE wizyty (
-    w_id SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
-    l_id SMALLINT(5) UNSIGNED NOT NULL,
-    p_id SMALLINT(5) UNSIGNED NOT NULL,
+    w_id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    l_id SMALLINT UNSIGNED NOT NULL,
+    p_id SMALLINT UNSIGNED NOT NULL,
     data_wizyty DATE NOT NULL,
+    u_id SMALLINT UNSIGNED NOT NULL,
     PRIMARY KEY (w_id),
     FOREIGN KEY (l_id)
         REFERENCES lekarze (l_id),
     FOREIGN KEY (p_id)
-        REFERENCES pacjenci (p_id)
+        REFERENCES pacjenci (p_id),
+	FOREIGN KEY (u_id)
+        REFERENCES uzytkownicy (u_id)
 );
 
-CREATE TABLE przebieg (
-    w_id SMALLINT(5) UNSIGNED NOT NULL,
+CREATE TABLE przebieg_wizyt (
+    w_id SMALLINT UNSIGNED NOT NULL,
     z_id INT(1),
-    kod_schorzenia VARCHAR(7),
+    kod_schorzenia VARCHAR(7) NULL,
     kod_procedury DECIMAL(6,4),
-    i_id VARCHAR(15),
-    k_id VARCHAR(8),
-    o_id CHAR(2),
+    kod_implantu VARCHAR(15) NULL,
+    kod_korony VARCHAR(8) NULL,
+    kod_odcienia CHAR(2) NULL,
     komentarz VARCHAR(100),
+    u_id SMALLINT UNSIGNED NOT NULL,
     FOREIGN KEY (w_id)
         REFERENCES wizyty (w_id),
     FOREIGN KEY (kod_schorzenia)
-        REFERENCES icd10 (kod),
+        REFERENCES icd10 (kod_icd10),
     FOREIGN KEY (kod_procedury)
         REFERENCES icd9 (kategoria_numer),
     FOREIGN KEY (z_id)
         REFERENCES zeby (z_id),
-	FOREIGN KEY (i_id)
-        REFERENCES implanty (i_id),
-    FOREIGN KEY (k_id)
-        REFERENCES korony (k_id),
-    FOREIGN KEY (o_id)
-        REFERENCES odcienie_koron (o_id)
+	FOREIGN KEY (kod_implantu)
+        REFERENCES implanty (kod_implantu),
+    FOREIGN KEY (kod_korony)
+        REFERENCES korony (kod_korony),
+    FOREIGN KEY (kod_odcienia)
+        REFERENCES odcienie_koron (kod_odcienia),
+	FOREIGN KEY (u_id)
+        REFERENCES uzytkownicy (u_id)
+	
 ); 

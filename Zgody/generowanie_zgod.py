@@ -9,13 +9,15 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 import MySQLdb
 import time
 
-w_id = 2
+w_id = 8
 
 # Open database connection
 db = MySQLdb.connect("localhost","Kasia :)","mysql","protetyka_dentystyczna")
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
+
+cursor.execute("SET NAMES utf8")
 
 query = """
     SELECT 

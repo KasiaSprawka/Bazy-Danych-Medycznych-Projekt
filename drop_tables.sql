@@ -1,4 +1,4 @@
-DROP TABLE przebieg;
+DROP TABLE przebieg_wizyt;
 DROP TABLE wizyty;
 DROP TABLE zeby;
 DROP TABLE odcienie_koron;
@@ -7,6 +7,7 @@ DROP TABLE rozmiary_implantow;
 DROP TABLE implanty;
 DROP TABLE materialy;
 DROP TABLE producenci;
+DROP TABLE uzytkownicy;
 DROP TABLE personel;
 DROP TABLE pacjenci;
 DROP TABLE lekarze_specjalizacje_link;

@@ -37,7 +37,7 @@ FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\r\n'
 IGNORE 2 ROWS
 (id, numer_telefonu, @local_email)
-SET email = IFNULL(null,@local_email);
+SET email = IFNULL(@local_email,null);
 
 LOAD DATA LOCAL INFILE 'C:/Program Files/MySQL/MySQL Workbench 6.3 CE/data/csv/lekarze.csv'
 INTO TABLE lekarze
@@ -69,6 +69,13 @@ INTO TABLE personel
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\r\n'
 IGNORE 2 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Program Files/MySQL/MySQL Workbench 6.3 CE/data/csv/uzytkownicy.csv'
+INTO TABLE uzytkownicy
+FIELDS TERMINATED BY ';'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
 
 LOAD DATA LOCAL INFILE 'C:/Program Files/MySQL/MySQL Workbench 6.3 CE/data/csv/producenci.csv'
 INTO TABLE producenci
@@ -118,15 +125,13 @@ INTO TABLE wizyty
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\r\n'
 IGNORE 2 ROWS
-(l_id,p_id,data_wizyty);
+(l_id,p_id,data_wizyty,u_id);
 
 LOAD DATA LOCAL INFILE 'C:/Program Files/MySQL/MySQL Workbench 6.3 CE/data/csv/przebieg.csv'
-INTO TABLE przebieg
-FIELDS TERMINATED BY ';'
+INTO TABLE przebieg_wizyt
+FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\r\n'
-IGNORE 2 ROWS
-(w_id, z_id, kod_schorzenia,kod_procedury, @local_ic,@local_komentarz)
-SET id_ic = IFNULL(null,@local_ic),
-komentarz = IFNULL(null,@local_komentarz);
+IGNORE 2 ROWS;
+
 
 
